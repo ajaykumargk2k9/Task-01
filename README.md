@@ -1,15 +1,18 @@
 🐳 Task 1: Containerize a Web Application (Real Dev Scenario)
 
 📖 Overview
+
 This project demonstrates how to containerize a simple **Node.js (Express)** web application using **Docker**. The objective is to package the application along with all its dependencies into a Docker image, ensuring it runs consistently across development, testing, and production environments.
 
 In this real-world DevOps scenario, the application is containerized by creating a Dockerfile, building a Docker image, and running the application inside a Docker container. The project also covers exposing application ports, accessing the application through a web browser, and optionally publishing the Docker image to Docker Hub.
 
 🎯 Objective
+
 Deploy a simple web application using Docker while learning the complete containerization workflow.
 
 
 🧩 Scenario
+
 Your development team has built a simple Node.js (Express) application. As a DevOps Engineer, your responsibility is to containerize the application so that it can run reliably and consistently across different environments without dependency or configuration issues.
 
 
