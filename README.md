@@ -160,6 +160,7 @@ Open package.json, Replace and save the file
 Find:
 
 "scripts": {
+
   "test": "..."
 }
 
@@ -167,11 +168,38 @@ Find:
 Replace it with:
 
 "scripts": {
+
   "start": "node app.js"
 }
 
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/raw/refs/heads/main/Update%20package.json)
 
 
+
+
+Start the Application
+
+
+Run, npm start
+
+Expected Output
+
+> docker-node-app@1.0.0 start
+> node app.js
+
+Server running on port 3000
+
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Start%20the%20nodejs%20application.PNG?raw=true)
+
+
+
+Test in the Browser
+
+Open, http://localhost:3000
+
+Expected Result: Hello Docker!
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Test%20in%20the%20browser.PNG?raw=true)
 
 
