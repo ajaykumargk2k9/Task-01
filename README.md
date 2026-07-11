@@ -108,7 +108,7 @@ Before starting this project, install the following software:
 
 💻 Visual Studio Code (VS Code) – Install VS Code to write and manage the project files.
 
-![image alt]([image_url](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20Engine%20Running.PNG?raw=true))
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20and%20Nodejs.PNG?raw=true)
 
 
 
