@@ -1,3 +1,87 @@
-# Task-01
-Task-01
-Welcome Docker Learning
+🐳 Task 1: Containerize a Web Application (Real Dev Scenario)
+
+📖 Overview
+This project demonstrates how to containerize a simple **Node.js (Express)** web application using **Docker**. The objective is to package the application along with all its dependencies into a Docker image, ensuring it runs consistently across development, testing, and production environments.
+
+In this real-world DevOps scenario, the application is containerized by creating a Dockerfile, building a Docker image, and running the application inside a Docker container. The project also covers exposing application ports, accessing the application through a web browser, and optionally publishing the Docker image to Docker Hub.
+
+🎯 Objective
+Deploy a simple web application using Docker while learning the complete containerization workflow.
+
+
+🧩 Scenario
+Your development team has built a simple Node.js (Express) application. As a DevOps Engineer, your responsibility is to containerize the application so that it can run reliably and consistently across different environments without dependency or configuration issues.
+
+
+📌 Requirements
+* 🚀 Create a simple Node.js (Express) web application
+* 📝 Create a Dockerfile
+* 🏗️ Build a Docker image
+* ▶️ Run the Docker container
+* 🌐 Expose the application on port **3000**
+* 💻 Verify the application in a web browser
+
+
+🔧 Implementation Steps
+1. 📁 Create the Node.js application
+2. 🐳 Create the Dockerfile
+3. 📦 Choose the appropriate base image (`node`)
+4. 📂 Copy the application files
+5. 📥 Install application dependencies
+6. 🌐 Expose port **3000**
+7. ▶️ Build the Docker image
+8. 🚀 Run the Docker container
+9. ✅ Verify the application in the browser
+
+
+✅ Expected Output
+
+After successfully running the container, the application should be accessible at:
+http://localhost:3000**
+
+
+💡 Bonus
+
+* ☁️ Push the Docker image to Docker Hub
+
+
+🐳 Docker Architecture Overview
+
+
+
+📌 Overall Workflow
+
+Install Docker
+       │
+       ▼
+Create Project Folder
+       │
+       ▼
+Develop Simple Web App
+       │
+       ▼
+Run App Locally
+       │
+       ▼
+Create Dockerfile
+       │
+       ▼
+Build Docker Image
+       │
+       ▼
+Run Docker Container
+       │
+       ▼
+Open Browser (localhost)
+       │
+       ▼
+Verify Application
+       │
+       ▼
+(Optional)
+Push Image to Docker Hub
+
+
+
+
+
