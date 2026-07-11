@@ -50,6 +50,7 @@ http://localhost:3000**
 
 🐳 Docker Architecture Overview
 
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20Architecture%20Overview.PNG?raw=true)
 
 
 📌 Overall Workflow
