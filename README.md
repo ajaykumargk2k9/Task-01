@@ -113,8 +113,65 @@ Before starting this project, install the following software:
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20Engine%20Running.PNG?raw=true)
 
 
+
 Create the project folder
+
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Project%20Directory.PNG?raw=true)
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Enter%20directory.PNG?raw=true)
+
+
+Initialize the Node.js Project
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Initialize%20the%20NodeJs%20project.PNG?raw=true)
+
+
+Install Express
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Install%20Express.PNG?raw=true)
+
+
+Create the Application, Add the following code and save the file 
+
+const express = require('express');
+
+const app = express();
+
+const PORT = 3000;
+
+app.get('/', (req, res) => {
+    res.send('Hello Docker!');
+});
+
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
+
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Create%20the%20application.PNG?raw=true)
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/raw/refs/heads/main/Add%20the%20code%20in%20app.js)
+
+
+
+Update package.json
+
+Open package.json, Replace and save the file 
+
+Find:
+
+"scripts": {
+  "test": "..."
+}
+
+
+Replace it with:
+
+"scripts": {
+  "start": "node app.js"
+}
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/raw/refs/heads/main/Update%20package.json)
+
+
 
 
