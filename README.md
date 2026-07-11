@@ -110,6 +110,6 @@ Before starting this project, install the following software:
 
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20and%20Nodejs.PNG?raw=true)
 
-
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20and%20Nodejs.PNG?raw=true)
 
 
