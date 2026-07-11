@@ -65,42 +65,34 @@ http://localhost:3000**
 
 Install Docker
        │
-       ▼
-       
+       ▼       
 Create Project Folder
        │
-       ▼
-       
+       ▼       
 Develop Simple Web App
        │
-       ▼
-       
+       ▼       
 Run App Locally
        │
-       ▼
-       
+       ▼       
 Create Dockerfile
        │
-       ▼
-       
+       ▼       
 Build Docker Image
        │
-       ▼
-       
+       ▼       
 Run Docker Container
        │
-       ▼
-       
+       ▼       
 Open Browser (localhost)
        │
-       ▼
-       
+       ▼       
 Verify Application
        │
-       ▼
-       
+       ▼       
 (Optional)
 Push Image to Docker Hub
+
 
 
 
@@ -116,8 +108,8 @@ Before starting this project, install the following software:
 
 💻 Visual Studio Code (VS Code) – Install VS Code to write and manage the project files.
 
-![image alt](image_url)
-![image alt](image_url)
+![image alt]([image_url](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20Engine%20Running.PNG?raw=true))
+![image alt]([image_url](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20and%20Nodejs.PNG?raw=true))
 
 
 
