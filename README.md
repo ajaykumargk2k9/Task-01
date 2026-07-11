@@ -113,3 +113,8 @@ Before starting this project, install the following software:
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20Engine%20Running.PNG?raw=true)
 
 
+Create the project folder
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Project%20Directory.PNG?raw=true)
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Enter%20directory.PNG?raw=true)
+
+
