@@ -66,32 +66,42 @@ http://localhost:3000**
 Install Docker
        │
        ▼
+       
 Create Project Folder
        │
        ▼
+       
 Develop Simple Web App
        │
        ▼
+       
 Run App Locally
        │
        ▼
+       
 Create Dockerfile
        │
        ▼
+       
 Build Docker Image
        │
        ▼
+       
 Run Docker Container
        │
        ▼
+       
 Open Browser (localhost)
        │
        ▼
+       
 Verify Application
        │
        ▼
+       
 (Optional)
 Push Image to Docker Hub
+
 
 
 🛠️ Install Prerequisites
@@ -99,11 +109,15 @@ Push Image to Docker Hub
 Before starting this project, install the following software:
 
 🐳 Docker Desktop – Install Docker Desktop and ensure the Docker Engine is running.
+
 🐋 Docker – Verify the Docker installation using docker --version.
+
 🟢 Node.js – Install Node.js (includes npm) and verify the installation using node -v and npm -v.
+
 💻 Visual Studio Code (VS Code) – Install VS Code to write and manage the project files.
 
-
+![image alt](image_url)
+![image alt](image_url)
 
 
 
