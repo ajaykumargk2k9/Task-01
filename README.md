@@ -277,4 +277,25 @@ docker images
 
 
 
+Run the Docker container and verify it using the commands below.
+
+docker run -d -p 3000:3000 --name my-node-app docker-node-app
+
+docker ps
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20container.PNG?raw=true)
+
+
+
+Test in the Browser
+
+Open, http://localhost:3000
+
+Expected Result: Hello Docker!
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Test%20in%20the%20browser.PNG?raw=true)
+
+
+
+
 
