@@ -247,6 +247,7 @@ Create a .dockerignore File named ".dockerignore"
 Add the following 
 
 node_modules
+
 npm-debug.log
 
 When Docker builds the image it copies our project.
@@ -300,11 +301,17 @@ Expected Result: Hello Docker!
 
 The container logs can be viewed using the command below.
 
+docker logs my-node-app
+
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Container%20Logs.PNG?raw=true)
 
 
 
 Enter the running Docker container using the command below then use the ls command to view the files available inside the container.
+
+docker exec -it my-node-app sh
+
+ls
 
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Enter%20the%20running%20container.PNG?raw=true)
 
