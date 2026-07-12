@@ -316,3 +316,22 @@ ls
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Enter%20the%20running%20container.PNG?raw=true)
 
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Listing%20the%20files%20in%20the%20container.PNG?raw=true)
+
+
+
+Stop the Docker container and verify that it has stopped using the commands below.
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Stop%20the%20container.PNG?raw=true)
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Container%20no%20longer%20appearing.PNG?raw=true)
+
+
+
+Remove the Docker container and verify all containers both running and stopped using the commands below.
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Remove%20the%20container.PNG?raw=true)
+
+
+
+
+
