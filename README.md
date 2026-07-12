@@ -298,4 +298,14 @@ Expected Result: Hello Docker!
 
 
 
+The container logs can be viewed using the command below.
 
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Container%20Logs.PNG?raw=true)
+
+
+
+Enter the running Docker container using the command below then use the ls command to view the files available inside the container.
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Enter%20the%20running%20container.PNG?raw=true)
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Listing%20the%20files%20in%20the%20container.PNG?raw=true)
