@@ -205,5 +205,38 @@ Expected Result: Hello Docker!
 
 
 
+Create a Dockerfile
+
+A Dockerfile is a text file that contains a set of instructions for building a Docker image. It defines the application's environment installs dependencies and specifies how the application should run inside a Docker container.
+
+📌 Steps
+
+1. Open Visual Studio Code (VS Code).
+2. In the Explorer panel, right click your project folder.
+3. Select New File.
+4. Name the file exactly: Dockerfile
+
+
+Important:Do not add a `.txt` extension. The filename must be exactly Dockerfile.
+
+
+Copy and paste the following content into the `Dockerfile` and save the file.
+
+dockerfile
+
+FROM node:22
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
+
 
 
