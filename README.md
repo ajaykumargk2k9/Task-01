@@ -238,5 +238,24 @@ EXPOSE 3000
 
 CMD ["npm", "start"]
 
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Dockerfile.PNG?raw=true)
+
+
+
+Create a .dockerignore File named ".dockerignore"
+
+Add the following 
+
+node_modules
+npm-debug.log
+
+When Docker builds the image it copies our project.
+We don't want to copy node_modules from our computer because the image will install dependencies itself with npm install.
+This keeps our image cleaner and avoids platform specific issues.
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/dockerignore.PNG?raw=true)
+
+
+
 
 
