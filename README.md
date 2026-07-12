@@ -1,6 +1,6 @@
 🐳 Task 1: Containerize a Web Application (Real Dev Scenario)
 
-📖 Overview
+📖 Project Overview
 
 This project demonstrates how to containerize a simple **Node.js (Express)** web application using **Docker**. The objective is to package the application along with all its dependencies into a Docker image, ensuring it runs consistently across development, testing, and production environments.
 
