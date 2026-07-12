@@ -262,3 +262,19 @@ Now project looks like this
 
 ![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Project%20folder%20Structure.PNG?raw=true)
 
+
+
+Built the Docker image and verified that it was created successfully using the commands below
+
+docker build -t docker-node-app
+
+docker images
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20Image%20Built.PNG?raw=true)
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/docker%20Image%20created.PNG?raw=true)
+
+
+
+
+
