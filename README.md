@@ -334,4 +334,46 @@ Remove the Docker container and verify all containers both running and stopped u
 
 
 
+Push the Docker Image to Docker Hub
 
+Follow the steps below to push the Docker image to your Docker Hub repository.
+
+1. Log in to Docker Hub
+
+Open the VS Code terminal and run the following command
+
+docker login
+
+Enter your Docker Hub username and password when prompted.
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20Login.PNG?raw=true)
+
+
+2. Tag the local Docker image with your Docker Hub repository name.
+   
+Note: Both image tags refer to the same Docker image but have different names. Tagging prepares the image for uploading to your Docker Hub repository.
+
+docker tag docker-node-app ajaykumargk2k9/docker-node-app:1.0
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Tag%20the%20image.PNG?raw=true)
+
+
+3. Push the tagged image to Docker Hub using the following command
+   
+docker push ajaykumargk2k9/docker-node-app:1.0
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Push%20the%20image.PNG?raw=true)
+
+
+4. Verify the Uploaded Image
+   
+Log in to the Docker Hub account and navigate to your repositories to verify that the image has been uploaded successfully.
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Docker%20hub%20repository.PNG?raw=true)
+
+
+5. View the Image Version
+   
+Open the repository and select the image to view its available tags versions such as latest tags that have been pushed.
+
+![image alt](https://github.com/ajaykumargk2k9/Task-01/blob/main/Tag%20version%20in%20dockerhub.PNG?raw=true)
